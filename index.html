@@ -1,31 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High-Performance Landing Page</title>
+    <title>Bath Specialists | Beautiful Walk-In Showers in 2 Days</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body class="bg-white text-gray-900 antialiased">
-    
+<body class="bg-white text-neutral-900 antialiased">
 
-    <section class="max-w-4xl mx-auto px-6 py-20 text-center">
-        <h1 class="text-5xl font-extrabold tracking-tight mb-6">Build Your Dream Space</h1>
-        <p class="text-xl text-gray-600 mb-10">High-quality construction with a minimalist touch. Fast, reliable, and conversion-focused.</p>
-        
-        <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 shadow-sm max-w-md mx-auto">
-            <form name="quote-request" action="/success.html" method="POST" netlify  class="space-y-4">
-                <input type="text" name="name" placeholder="Full Name" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none">
-                <input type="email" name="email" placeholder="Email Address" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none">
-                <textarea name="message" placeholder="Describe your project" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
-                <button type="submit" class="w-full bg-black text-white font-bold py-4 rounded-lg hover:bg-gray-800 transition">Get a Free Quote</button>
-            </form>
+    <nav class="h-16 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-neutral-100"> 
+        <div class="flex justify-between items-center h-full lg:mx-40 sm:mx-10 mx-6"> 
+            <div class="font-bold uppercase text-sm tracking-tighter">Bath Specialists | Gulf Coast</div>
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#benefits" class="hover:text-blue-600 transition">Benefits</a>
+                <a href="#transformations" class="hover:text-blue-600 transition">Gallery</a>
+                <a href="#reviews" class="hover:text-blue-600 transition">Reviews</a>
+            </div>
+            <a href="#contact" class="text-sm font-bold border-b-2 border-black pb-1">Get Quote</a>
+        </div>
+    </nav>
+
+    <a href="tel:8502223333" class="fixed md:text-base text-sm md:bottom-6 md:right-6 right-4 bottom-4 z-50 flex items-center gap-2.5 bg-black text-white px-6 py-3.5 rounded-full font-medium shadow-xl active:scale-95 transition-all">
+        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+        (850) 222-3333
+    </a>
+
+    <main class="mt-24 lg:mt-40 mb-20 px-6">
+        <div class="lg:mx-40 sm:mx-10 flex flex-col justify-center items-center">
+            <div class="max-w-4xl text-center">
+                <h1 class="text-[38px] md:text-[64px] font-bold tracking-tighter leading-none mb-6">
+                    Transform Your Bathroom Into a <span class="text-neutral-400">Beautiful Walk-In Shower</span> in Just 2 Days.
+                </h1>
+                <p class="text-gray-500 text-lg md:text-2xl tracking-tight max-w-2xl mx-auto">
+                    Durable, low-maintenance shower systems professionally installed by local specialists — with no grout to scrub ever again.
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-wrap justify-center gap-6">
+                <a href="#contact" class="bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-neutral-800 transition shadow-lg">Schedule My Free Quote</a>
+                <div class="flex items-center gap-2 text-sm font-bold text-neutral-600 px-6 py-4 bg-neutral-100 rounded-full">
+                    ⭐⭐⭐⭐⭐ <span class="ml-2 uppercase tracking-widest text-[10px]">Rated by Local Homeowners</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="border-y border-neutral-100 bg-neutral-50 py-10">
+        <div class="lg:mx-40 sm:mx-10 flex flex-wrap justify-around gap-8 text-center">
+            <div>
+                <p class="text-3xl font-bold tracking-tighter">2 Days</p>
+                <p class="text-xs uppercase tracking-widest text-neutral-500 font-bold">Fast Installation</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold tracking-tighter">No Grout</p>
+                <p class="text-xs uppercase tracking-widest text-neutral-500 font-bold">Maintenance Free</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold tracking-tighter">Lifetime</p>
+                <p class="text-xs uppercase tracking-widest text-neutral-500 font-bold">Warranty Included</p>
+            </div>
         </div>
     </section>
 
-    </body>
+    <section id="benefits" class="py-24 lg:mx-40 sm:mx-10 mx-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex items-start gap-4 p-6 rounded-2xl bg-neutral-50 border border-transparent hover:border-neutral-200 transition-all">
+                <div class="text-blue-600">✔</div>
+                <div>
+                    <h3 class="font-bold text-lg tracking-tight">Mold-Resistant Materials</h3>
+                    <p class="text-sm text-neutral-500">Our non-porous surfaces prevent bacteria and mold growth, making cleaning effortless.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-4 p-6 rounded-2xl bg-neutral-50 border border-transparent hover:border-neutral-200 transition-all">
+                <div class="text-blue-600">✔</div>
+                <div>
+                    <h3 class="font-bold text-lg tracking-tight">Safer Walk-In Entry</h3>
+                    <p class="text-sm text-neutral-500">Low-profile bases eliminate the danger of stepping over high tub walls for a safer experience.</p>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="transformations" class="py-20 bg-neutral-900 text-white rounded-[3rem] mx-4 mb-20 overflow-hidden">
+        <div class="lg:mx-40 sm:mx-10 mx-6">
+            <h2 class="text-4xl font-bold tracking-tighter mb-12">Real Transformations.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <figure class="group">
+                    <img class="aspect-video rounded-3xl object-cover grayscale group-hover:grayscale-0 transition-all duration-500" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800" alt="Shower Before">
+                    <figcaption class="mt-4 text-sm font-medium opacity-60">Professional Installation in Pensacola, FL</figcaption>
+                </figure>
+                <figure class="group">
+                    <img class="aspect-video rounded-3xl object-cover" src="https://images.unsplash.com/photo-1620626011761-9963d7521476?auto=format&fit=crop&q=80&w=800" alt="Shower After">
+                    <figcaption class="mt-4 text-sm font-medium opacity-60">Finished Modern Walk-In System</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 lg:mx-40 sm:mx-10 mx-6">
+        <div class="max-w-2xl mx-auto text-center mb-12">
+            <h2 class="text-4xl font-bold tracking-tighter">Get Your Free In-Home Quote</h2>
+            <p class="text-neutral-500 mt-4 italic text-sm">Serving Gulf Breeze, Pensacola, Navarre, Milton, and surrounding communities.</p>
+        </div>
+        
+        <form name="shower-lead" method="POST" data-netlify="true" class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+            <input type="text" name="name" placeholder="Full Name" required class="w-full p-4 rounded-xl bg-neutral-50 border border-neutral-100 focus:border-black outline-none transition">
+            <div class="grid grid-cols-2 gap-4">
+                <input type="tel" name="phone" placeholder="Phone" required class="w-full p-4 rounded-xl bg-neutral-50 border border-neutral-100 focus:border-black outline-none transition">
+                <input type="text" name="zip" placeholder="Zip Code" required class="w-full p-4 rounded-xl bg-neutral-50 border border-neutral-100 focus:border-black outline-none transition">
+            </div>
+            <input type="email" name="email" placeholder="Email Address" required class="w-full p-4 rounded-xl bg-neutral-50 border border-neutral-100 focus:border-black outline-none transition">
+            <button type="submit" class="w-full bg-black text-white font-bold py-5 rounded-xl hover:bg-neutral-800 transition mt-4 uppercase tracking-widest text-sm">Schedule My Free Quote</button>
+            <p class="text-[10px] text-center text-neutral-400 mt-2 uppercase tracking-widest">We respect your privacy. No spam. No obligation.</p>
+        </form>
+    </section>
+
+    <footer class="py-20 border-t border-neutral-100">
+        <div class="lg:mx-40 sm:mx-10 mx-6 text-center text-neutral-400 text-xs">
+            <p>© 2026 Bath Specialists | A Division of New Construction LLC</p>
+            <p class="mt-2">Licensed & Insured | Gulf Coast Premiere Remodeling</p>
+        </div>
+    </footer>
+
+</body>
 </html>
