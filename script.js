@@ -1,7 +1,7 @@
 const mainImages = [
-    '/images/image4.jpg',
-    '/images/image1.jpg', 
     '/images/image3.jpg',
+    '/images/image4.jpg', 
+    '/images/image1.jpg',
     
 ];
 
@@ -14,6 +14,7 @@ function alternateImages() {
     setTimeout(() => {
         currentIndex = (currentIndex + 1) % mainImages.length;
         heroImg.src = mainImages[currentIndex];
+        
 
         heroImg.style.opacity = '1';
     }, 1000); 
