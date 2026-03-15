@@ -48,7 +48,14 @@
     <link rel="preload" href="/output.css" as="style">
     <link rel="stylesheet" href="/output.css">
     
-    
+    <script>
+  document.querySelectorAll('img').forEach(img => {
+    const s = img.getAttribute('src');
+    if (s && s.startsWith('/images/')) {
+      img.src = `/.netlify/images?url=${s}&w=1000&q=75`;
+    }
+  });
+</script>
 </head>
 <body class=" text-neutral-900 antialiased">
     <nav class="h-16 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-neutral-100"> 
