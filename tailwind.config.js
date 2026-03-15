@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./*.html",            // Scans all HTML files in your root folder
-    "./src/**/*.{js,ts}",  // Scans all JS/TS files in a src folder (if you have one)
-    "./index.html"         // Explicitly scans your main file
-  ],
+  content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // This makes 'font-sans' use Inter by default
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+      },
+    },
   },
   plugins: [],
 }
