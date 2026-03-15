@@ -2150,6 +2150,9 @@
   .bg-neutral-400 {
     background-color: var(--color-neutral-400);
   }
+  .bg-neutral-500 {
+    background-color: var(--color-neutral-500);
+  }
   .bg-neutral-800 {
     background-color: var(--color-neutral-800);
   }
