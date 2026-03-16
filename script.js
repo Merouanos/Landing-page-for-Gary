@@ -1,7 +1,11 @@
 const mainImages = [
-    '/images/image3.avif',
-    '/images/bill-and-nancy-after.avif',
-    '/images/kathy-after-shows-chair-folded-up.avif'
+    '/images/top-slider1.png',
+    '/images/top-slider2.png',
+    '/images/sandstone-after4.avif',
+     '/images/sandstone-after5.avif',
+      '/images/sandstone-after3.avif',
+       '/images/sandstone-after2.avif',
+    '/images/sandstoe-after1.avif'
     
 ];
 
