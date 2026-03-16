@@ -5,7 +5,7 @@ const mainImages = [
      '/images/sandstone-after5.avif',
       '/images/sandstone-after3.avif',
        '/images/sandstone-after2.avif',
-    '/images/sandstoe-after1.avif'
+    '/images/sandstone-after1.avif'
     
 ];
 
