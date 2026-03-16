@@ -1,7 +1,7 @@
 const mainImages = [
-    '/images/image3.jpg',
-    '/images/image4.jpg', 
-    '/images/image1.jpg',
+    '/images/image3.avif',
+    '/images/bill-and-nancy-after.avif',
+    '/images/kathy-after-shows-chair-folded-up.avif'
     
 ];
 
